@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions
+        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+        xmlns:tns="spyne.examples.webservice"
+        xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+        xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+        xmlns:xop="http://www.w3.org/2004/08/xop/include"
+        xmlns:soap12env="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:wsdlsoap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+        xmlns:wsdlsoap11="http://schemas.xmlsoap.org/wsdl/soap/"
+        xmlns:soap11enc="http://schemas.xmlsoap.org/soap/encoding/"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:soap12enc="http://www.w3.org/2003/05/soap-encoding"
+        targetNamespace="spyne.examples.webservice" name="Application">
+    <wsdl:types>
+        <xs:schema targetNamespace="spyne.examples.webservice" elementFormDefault="qualified">
+            <xs:complexType name="security_command">
+                <xs:sequence>
+                    <xs:element name="odId" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="randVal" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="timestamp" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="pwdHash" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="command" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="commandHash" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="commandType" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="commandSequence" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="encryptAlgorithm" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="hashAlgorithm" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="compressionFormat" type="xs:string" minOccurs="0" nillable="true"/>
+                    <xs:element name="commandVersion" type="xs:string" minOccurs="0" nillable="true"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="security_commandResponse">
+                <xs:sequence>
+                    <xs:element name="security_commandResult" type="xs:string" minOccurs="0" nillable="true"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="security_command" type="tns:security_command"/>
+            <xs:element name="security_commandResponse" type="tns:security_commandResponse"/>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="security_command">
+        <wsdl:part name="security_command" element="tns:security_command"/>
+    </wsdl:message>
+    <wsdl:message name="security_commandResponse">
+        <wsdl:part name="security_commandResponse" element="tns:security_commandResponse"/>
+    </wsdl:message>
+    <wsdl:service name="SecurityWebService">
+        <wsdl:port name="Application" binding="tns:Application">
+            <wsdlsoap11:address location="http://127.0.0.1:9999/SecurityWebService/SecurityCommand"/>
+        </wsdl:port>
+    </wsdl:service>
+    <wsdl:portType name="Application">
+        <wsdl:operation name="security_command" parameterOrder="security_command">
+            <wsdl:input name="security_command" message="tns:security_command"/>
+            <wsdl:output name="security_commandResponse" message="tns:security_commandResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="Application" type="tns:Application">
+        <wsdlsoap11:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="security_command">
+            <wsdlsoap11:operation soapAction="security_command" style="document"/>
+            <wsdl:input name="security_command">
+                <wsdlsoap11:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="security_commandResponse">
+                <wsdlsoap11:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+</wsdl:definitions>
