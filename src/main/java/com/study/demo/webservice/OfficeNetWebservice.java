@@ -6,25 +6,13 @@ import org.springframework.stereotype.Component;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
-import javax.xml.bind.annotation.*;
 
 @WebService(name = "OfficeNetWebservice",targetNamespace = "http://webservice.demo.study.com/")
 @Component
 public interface OfficeNetWebservice {
     /**
      *
-     * @param odId
-     * @param randVal
-     * @param timestamp
-     * @param pwdHash
-     * @param command
-     * @param commandHash
-     * @param commandType
-     * @param commandSequence
-     * @param encryptAlgorithm
-     * @param hashAlgorithm
-     * @param compressionFormat
-     * @param commandVersion
+     * @param securityCommmandVo
      * @return
      */
     @WebMethod(operationName = "security_commandack",action = "commandack")
