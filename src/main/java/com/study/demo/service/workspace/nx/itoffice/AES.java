@@ -1,4 +1,4 @@
-package com.study.demo.workspace.nx.itoffice;
+package com.study.demo.service.workspace.nx.itoffice;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
