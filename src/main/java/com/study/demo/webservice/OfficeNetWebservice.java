@@ -1,14 +1,12 @@
 package com.study.demo.webservice;
 
 import com.study.demo.vo.SecurityCommmandVo;
-import org.springframework.stereotype.Component;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
 @WebService(name = "OfficeNetWebservice",targetNamespace = "http://webservice.demo.study.com/")
-@Component
 public interface OfficeNetWebservice {
     /**
      *
