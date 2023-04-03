@@ -1,0 +1,48 @@
+[10:36:07:510] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:819) - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:748) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.study.demo.DemoApplication.main(DemoApplication.java:28) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.study.demo.service.arthas.ArthasAppRunner.run(ArthasAppRunner.java:17) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:758) ~[spring-boot-2.6.2.jar:2.6.2]
+	... 5 more
+[10:37:03:967] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:819) - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:748) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.study.demo.DemoApplication.main(DemoApplication.java:28) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.study.demo.service.arthas.ArthasAppRunner.run(ArthasAppRunner.java:17) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:758) ~[spring-boot-2.6.2.jar:2.6.2]
+	... 5 more
+[10:37:38:167] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:819) - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:748) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.study.demo.DemoApplication.main(DemoApplication.java:28) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.study.demo.service.arthas.ArthasAppRunner.run(ArthasAppRunner.java:17) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:758) ~[spring-boot-2.6.2.jar:2.6.2]
+	... 5 more
+[10:38:17:149] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:819) - Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:748) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:309) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.2.jar:2.6.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) [spring-boot-2.6.2.jar:2.6.2]
+	at com.study.demo.DemoApplication.main(DemoApplication.java:28) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.study.demo.service.arthas.ArthasAppRunner.run(ArthasAppRunner.java:17) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:758) ~[spring-boot-2.6.2.jar:2.6.2]
+	... 5 more

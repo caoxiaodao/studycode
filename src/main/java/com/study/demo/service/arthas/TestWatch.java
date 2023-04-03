@@ -1,9 +1,7 @@
 package com.study.demo.service.arthas;
 
-import com.study.demo.vo.ArthasVO;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -15,11 +13,11 @@ import java.util.Map;
 @Service
 public class TestWatch {
     public Map<String,Object> testMap(String str, Map<String,Object> map){
-        Map<String, Object> res = new HashMap<>();
-        ArthasVO arthasVO = new ArthasVO();
-        arthasVO.setUserId(1L);
-        arthasVO.setUsername("wangh");
-        res.put("1",arthasVO);
-        return res;
+//        Map<String, Object> res = new HashMap<>();
+//        ArthasVO arthasVO = new ArthasVO();
+//        arthasVO.setUserId(1L);
+//        arthasVO.setUsername("wangh");
+//        res.put("1",arthasVO);
+        return ArthasCache.getInstance().getCache();
     }
 }
