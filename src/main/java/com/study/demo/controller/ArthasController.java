@@ -19,6 +19,9 @@ import java.util.Map;
 @Controller
 @RequestMapping(value = "/arthas")
 public class ArthasController {
+    /**
+     * cn模块测试
+     */
     @Autowired
     private TestWatch testWatch;
     @RequestMapping(value = "/testMap",method = RequestMethod.GET)
