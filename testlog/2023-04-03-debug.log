@@ -17720,3 +17720,12 @@ Unconditional classes:
 [11:55:34:307] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:234) - Connection manager shut down
 [11:55:34:308] [DEBUG] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
 [11:55:34:309] [DEBUG] - org.apache.cxf.endpoint.ServerImpl.destroy(ServerImpl.java:200) - unregister the server to serverRegistry 
+[14:40:41:233] [DEBUG] - org.springframework.boot.availability.ApplicationAvailabilityBean.onApplicationEvent(ApplicationAvailabilityBean.java:77) - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[14:40:41:238] [DEBUG] - org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049) - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@76304b46, started on Mon Apr 03 10:38:24 CST 2023
+[14:40:41:240] [DEBUG] - org.springframework.core.env.PropertySourcesPropertyResolver.logKeyFound(PropertySourcesPropertyResolver.java:115) - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[14:40:41:252] [DEBUG] - org.apache.cxf.endpoint.ServerImpl.stop(ServerImpl.java:167) - Server is stopping.
+[14:40:41:260] [DEBUG] - org.apache.cxf.transport.AbstractObservable.setMessageObserver(AbstractObservable.java:63) - unregistering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@5e67a490
+[14:40:41:260] [DEBUG] - org.apache.cxf.endpoint.ServerImpl.destroy(ServerImpl.java:200) - unregister the server to serverRegistry 
+[14:40:41:275] [DEBUG] - org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:365) - Stopping beans in phase 2147483647
+[14:40:41:279] [DEBUG] - org.springframework.context.support.DefaultLifecycleProcessor.lambda$doStop$3(DefaultLifecycleProcessor.java:238) - Bean 'webServerGracefulShutdown' completed its stop procedure
+[14:40:41:280] [DEBUG] - org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:365) - Stopping beans in phase 2147483646

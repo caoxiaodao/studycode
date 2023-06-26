@@ -1,4 +1,4 @@
-package com.study.demo;
+package com.study.demo.work;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,9 +6,12 @@ import java.nio.file.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Demo {
+/**
+ * 获取系统当前时间
+ */
+public class SystemCurrentTime {
     public static void main(String[] args) {
-        Demo demo = new Demo();
+        SystemCurrentTime demo = new SystemCurrentTime();
         long currentTime = demo.getRealCurrentTime();
         System.out.println("System last time: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(currentTime));
 

@@ -1,11 +1,9 @@
 spring:
   datasource:
-    url: "jdbc:mysql://localhost/cybersky"
+    url: "jdbc:mysql://localhost:16120/cybersky"
     username: "cybersky"
     password: "Cyber.sky@305"
-  jdbc:
-    template:
-      query-timeout: 100
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 443
   ssl:
