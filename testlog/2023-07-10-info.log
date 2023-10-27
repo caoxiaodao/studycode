@@ -1,0 +1,821 @@
+[11:08:26:718] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:09:39:082] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:10:11:663] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:12:03:006] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:12:53:982] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:24:32:664] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:27:10:597] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:33:33:380] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:36:12:685] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:40:16:322] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:40:16:324] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:40:16:324] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:45:44:052] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:46:16:231] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:46:16:233] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:46:16:234] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:46:16:240] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:46:43:755] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:46:43:758] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:46:43:759] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:46:50:610] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:54:41:768] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:54:55:422] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:54:55:426] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:54:55:426] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:54:55:441] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:55:25:899] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:55:45:834] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:55:45:837] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:55:45:838] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:55:45:858] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:56:07:549] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:56:07:549] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:56:07:550] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:41) - 第3个inbound
+[11:57:34:180] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[11:57:44:765] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[11:57:44:767] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[11:57:44:774] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[14:55:55:466] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[14:55:55:467] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[14:57:56:954] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[14:57:56:956] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[14:57:56:957] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:42) - 第3个inbound
+[14:58:19:128] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[14:58:19:129] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[14:58:19:129] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:42) - 第3个inbound
+[14:58:19:967] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[14:58:19:968] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[14:58:19:968] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:42) - 第3个inbound
+[14:59:55:065] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[14:59:55:069] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[14:59:55:070] [INFO] - com.study.demo.netty.netty.A7Handler$1$3.channelRead(A7Handler.java:42) - 第3个inbound
+[15:09:26:474] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[15:09:26:476] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[15:09:26:476] [INFO] - com.study.demo.netty.netty.A7Handler$1$4.channelRead(A7Handler.java:50) - 第3个inbound
+[15:10:25:221] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[15:11:21:437] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[15:11:21:440] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[15:11:21:442] [INFO] - com.study.demo.netty.netty.A7Handler$1$4.channelRead(A7Handler.java:50) - 第3个inbound
+[15:12:38:662] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[15:12:48:175] [INFO] - com.study.demo.netty.netty.A7Handler$1$1.channelRead(A7Handler.java:29) - 第1个inbound
+[15:12:48:176] [INFO] - com.study.demo.netty.netty.A7Handler$1$2.channelRead(A7Handler.java:35) - 第2个inbound
+[15:12:48:176] [INFO] - com.study.demo.netty.netty.A7Handler$1$4.channelRead(A7Handler.java:50) - 第3个inbound
+[15:34:38:274] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A1Create.main(A1Create.java:34) - 非池化UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf(ridx: 0, widx: 0, cap: 256)
+[15:34:38:276] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A1Create.main(A1Create.java:36) - 池化UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf(ridx: 0, widx: 0, cap: 256)
+[15:35:24:550] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A1Create.main(A1Create.java:28) - 默认PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 256)
+[15:35:24:558] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A1Create.main(A1Create.java:35) - 非池化UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf(ridx: 0, widx: 0, cap: 256)
+[15:35:24:558] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A1Create.main(A1Create.java:37) - 池化PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 256)
+[15:35:26:621] [WARN] - io.netty.channel.DefaultChannelPipeline.onUnhandledInboundException(DefaultChannelPipeline.java:1152) - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_181]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[15:40:26:899] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:20) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 5, cap: 10)
+[15:41:21:907] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:20) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 5, cap: 10)
+[15:42:41:312] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:19) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 10)
+[15:45:28:272] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:27) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 10)
+[15:47:53:364] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:29) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 10)
+[15:48:31:049] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:29) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 10)
+[15:48:31:050] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:30) - 0
+[15:49:24:867] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:29) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 4, cap: 10)
+[15:49:24:868] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:30) - 1
+[15:50:28:332] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:30) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 8, cap: 10)
+[15:50:28:333] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:31) - 1
+[15:50:28:333] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:33) - 2
+[15:50:28:333] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:35) - 2
+[16:01:40:860] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:35) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 8, cap: 10)
+[16:01:40:861] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:36) - 1
+[16:01:40:862] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - 2
+[16:02:14:186] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:35) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 8, cap: 10)
+[16:02:14:187] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:36) - 1
+[16:02:14:188] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - 2
+[16:02:14:188] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 2
+[16:02:54:691] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:36) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:02:54:692] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - 1
+[16:02:54:693] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 2
+[16:02:54:693] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) - 2
+[16:11:24:539] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:11:24:540] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[16:11:24:541] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) - 2
+[16:11:24:547] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:48) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 03                                     |....            |
++--------+-------------------------------------------------+----------------+
+[16:13:30:259] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:13:30:260] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[16:13:30:262] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) - 2
+[16:13:30:270] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:48) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 03                                     |....            |
++--------+-------------------------------------------------+----------------+
+[16:13:30:270] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:49) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 03                                     |....            |
++--------+-------------------------------------------------+----------------+
+[16:15:03:822] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:15:03:824] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[16:15:03:832] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[16:15:03:832] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:47) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[16:58:24:038] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:58:24:040] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[16:59:15:714] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[16:59:15:715] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[16:59:15:723] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[16:59:15:724] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:47) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:06:01:214] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:06:01:216] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:06:01:223] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:46) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:06:01:224] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:47) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:06:29:935] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:06:29:936] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:07:13:821] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:07:13:823] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:07:53:389] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:07:53:390] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:08:20:683] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:08:20:684] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:09:15:239] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:37) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:09:15:240] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:38) - 1
+[17:09:15:248] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:52) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:09:15:248] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:53) -          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:11:15:677] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:40) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:11:15:679] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - 1
+[17:11:15:686] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:55) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:11:15:686] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:11:15:686] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:58) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:12:25:253] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:40) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:12:25:255] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - 1
+[17:12:25:262] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:55) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:12:25:263] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:12:25:263] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:57) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:12:25:263] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:59) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:12:25:263] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:60) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:12:25:265] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:61) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:30:09:116] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:40) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:30:09:117] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - 1
+[17:30:09:130] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:55) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:30:09:130] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:30:09:130] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:57) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:30:09:130] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:60) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:30:09:130] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:61) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:30:09:131] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:62) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:048] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:40) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:31:13:050] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - 1
+[17:31:13:062] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:55) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:062] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:062] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:57) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:062] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:60) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:063] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:61) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:13:063] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:62) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:39:955] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:40) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:31:39:956] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - 1
+[17:31:39:971] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:55) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:39:971] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:39:971] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:57) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:39:972] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:60) - duplicate         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:31:39:972] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:61) - buffer         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:31:39:972] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:62) - copy         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:34:05:697] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:41) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:34:05:699] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:42) - 1
+[17:34:05:710] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:56) - duplicateUnpooledDuplicatedByteBuf(ridx: 4, widx: 12, cap: 16, unwrapped: PooledUnsafeDirectByteBuf(ridx: 4, widx: 12, cap: 16))          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:34:05:710] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:57) - bufferPooledUnsafeDirectByteBuf(ridx: 4, widx: 12, cap: 16)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:34:05:710] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:58) - copyPooledUnsafeDirectByteBuf(ridx: 0, widx: 8, cap: 8)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:34:05:711] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:61) - duplicateUnpooledDuplicatedByteBuf(ridx: 4, widx: 16, cap: 16, unwrapped: PooledUnsafeDirectByteBuf(ridx: 4, widx: 12, cap: 16))          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03 00 00 00 04             |............    |
++--------+-------------------------------------------------+----------------+
+[17:34:05:711] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:62) - bufferPooledUnsafeDirectByteBuf(ridx: 4, widx: 12, cap: 16)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 04 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:34:05:711] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:63) - copyPooledUnsafeDirectByteBuf(ridx: 0, widx: 8, cap: 8)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 02 00 00 00 03                         |........        |
++--------+-------------------------------------------------+----------------+
+[17:43:04:575] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:43) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:43:04:576] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - 1
+[17:43:04:583] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:75) - buffer1  {}
+[17:43:04:583] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer2  {}
+[17:43:04:583] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:44:31:906] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:44:31:907] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:44:31:917] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:44:31:917] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:44:31:918] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:44:31:937] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:82) - buffer4          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:45:14:164] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:45:14:165] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:45:14:174] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:45:14:175] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:45:14:177] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:45:14:188] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:82) - buffer4  {}
+[17:45:38:224] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:45:38:227] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:45:38:234] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:45:38:234] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:45:38:235] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:45:38:250] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:82) - buffer4  {}
+[17:46:05:780] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:46:05:781] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:46:05:789] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:46:05:789] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:46:05:789] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:46:05:804] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:83) - buffer4  {}
+[17:47:42:932] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:47:42:933] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:47:42:941] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:47:42:941] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:47:42:942] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:47:42:953] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:83) - buffer4 CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=2) 
+[17:49:02:569] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:49:02:570] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:49:02:577] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33                                        |123             |
++--------+-------------------------------------------------+----------------+ {}
+[17:49:02:577] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 34 35 36                                        |456             |
++--------+-------------------------------------------------+----------------+ {}
+[17:49:02:593] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:83) - buffer4 CompositeByteBuf(ridx: 0, widx: 6, cap: 6, components=2)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+
+[17:53:28:391] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:44) - PooledUnsafeDirectByteBuf(ridx: 0, widx: 12, cap: 16)
+[17:53:28:391] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:45) - 1
+[17:53:28:398] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:76) - buffer1  {}
+[17:53:28:399] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:77) - buffer2  {}
+[17:53:28:399] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:78) - buffer3          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+ {}
+[17:53:28:412] [INFO] - com.study.demo.netty.netty.A8ByteBuf.A2Method.main(A2Method.java:84) - buffer4 CompositeByteBuf(ridx: 0, widx: 6, cap: 6, components=2)          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 31 32 33 34 35 36                               |123456          |
++--------+-------------------------------------------------+----------------+

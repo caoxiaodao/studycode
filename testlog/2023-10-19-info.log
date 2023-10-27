@@ -1,0 +1,76 @@
+[17:52:17:286] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010200000080</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-10-19 18:00:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>1</reportType>
+        <reportCycle>1</reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0102</commandType>
+        <rule>
+            <ruleID>13010200000080</ruleID>
+            <ruleDescription>对流量报文进行监测</ruleDescription>
+            <startTime>2023-10-19 18:15:00</startTime>
+            <endTime>2023-10-19 18:20:00</endTime>
+            <snortRule>alert tcp [10.224.7.115,10.227.224.141,192.200.200.13,10.223.6.165,10.226.149.155,10.226.149.236,10.229.150.9,192.200.200.61] any -> any any (msg:\"Matching Rules\")</snortRule>
+            <mtxRule></mtxRule>
+            <eventDirection>3</eventDirection>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+[18:26:19:253] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010200000080</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-10-19 18:00:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>1</reportType>
+        <reportCycle>1</reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0102</commandType>
+        <rule>
+            <ruleID>13010200000080</ruleID>
+            <ruleDescription>对流量报文进行监测</ruleDescription>
+            <startTime>2023-10-19 18:15:00</startTime>
+            <endTime>2023-10-19 18:20:00</endTime>
+            <snortRule>alert tcp [10.224.7.115,10.227.224.141,192.200.200.13,10.223.6.165,10.226.149.155,10.226.149.236,10.229.150.9,192.200.200.61] any -> any any (msg:\"Matching Rules\")</snortRule>
+            <mtxRule></mtxRule>
+            <eventDirection>3</eventDirection>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>

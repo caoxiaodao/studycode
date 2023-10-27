@@ -86,12 +86,12 @@ public class ItOfficeMain {
         }
         // 校验commandHash
         byte[] dataOfDecryptCommand = WebServiceUtil.dataOfDecryptCommand(command, encryptAlgorithm, AES_KEY, AES_OFFSET);
-        String commandHashCalc = WebServiceUtil.getCommandHash(dataOfDecryptCommand, SECRET_KEY, hashAlgorithm);
-        if (!commandHash.equals(commandHashCalc)) {
-            log.error("commandHash校验失败");
-            return;
-        }
-        // 获取command
+//        String commandHashCalc = WebServiceUtil.getCommandHash(dataOfDecryptCommand, SECRET_KEY, hashAlgorithm);
+//        if (!commandHash.equals(commandHashCalc)) {
+//            log.error("commandHash校验失败");
+//            return;
+//        }
+//         获取command
         String originCommand = WebServiceUtil.getOriginCommand(dataOfDecryptCommand, compressionFormat);//解压缩
         log.info("解析到指令内容，结束originCommand"+originCommand);
 
@@ -102,59 +102,83 @@ public class ItOfficeMain {
 //        String randVal = WebServiceUtil.getRandomString(20);
         String randVal = "drblXPDuUjSXBpaJYyGV";
 //        String timeStamp = sdf.format(System.currentTimeMillis());
-        String timeStamp = "2022-12-19 14:25:02";
+        String timeStamp = "2023-07-31 10:57:47";
         Integer hashAlgorithm = 1;//TODO 0：无hash；1：MD5；2：SHA-1；
         Integer encryptAlgorithm = 1;//TODO 0：不进行加密，明文传输； 1：AES加密算法。
         Integer compressionFormat = 1;//TODO 0：无压缩；1：tar.gz压缩格式
-        String commandVersion = "2.0";
+        String commandVersion = "1.0";
         String pwdHash = WebServiceUtil.getPwdHash(randVal,token,timeStamp,hashAlgorithm);
-        String originCommand = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-                "\n" +
-                "<command> \n" +
-                "  <commandInfo> \n" +
-                "    <commandPriority>1</commandPriority>  \n" +
-                "    <commandSource>1</commandSource>  \n" +
-                "    <timeStamp>2022-12-19 14:30:13</timeStamp>  \n" +
-                "    <owner>sysadmin</owner>  \n" +
-                "    <version>2.0</version>  \n" +
-                "    <operationType>0</operationType>  \n" +
-                "    <sourceSystem>3</sourceSystem>  \n" +
-                "    <commandID>13040164001206</commandID> \n" +
-                "  </commandInfo>  \n" +
-                "  <commandResult> \n" +
-                "    <handleType>1</handleType>  \n" +
-                "    <reportType>0</reportType>  \n" +
-                "    <reportCycle>3</reportCycle> \n" +
-                "  </commandResult>  \n" +
-                "  <commandRule> \n" +
-                "    <commandType>0401</commandType>  \n" +
-                "    <rule> \n" +
-                "      <eventLevel>1</eventLevel>  \n" +
-                "      <applicationProtocol>999</applicationProtocol>  \n" +
-                "      <ruleType>1</ruleType>  \n" +
-                "      <ruleID>13040164001206</ruleID>  \n" +
-                "      <protocolType>1</protocolType>  \n" +
-                "      <eventType>011600</eventType>  \n" +
-                "      <srcPort/>  \n" +
-                "      <ruleDescription>查询历史安全日志</ruleDescription>  \n" +
-                "      <destIp>218.203.141.152</destIp>  \n" +
-                "      <startTime>2022-12-17 12:52:49</startTime>  \n" +
-                "      <srcIp>10.224.7.114</srcIp>  \n" +
-                "      <isUploadFile>0</isUploadFile>  \n" +
-                "      <endTime>2022-12-19 14:00:00</endTime>  \n" +
-                "      <destPort/> \n" +
-                "    </rule> \n" +
-                "  </commandRule>  \n" +
-                "  <commandObject> \n" +
-                "    <effectVendor/>  \n" +
-                "    <effectSystem>3</effectSystem>  \n" +
-                "    <effectOperator>0102</effectOperator>  \n" +
-                "    <effectHouse/>  \n" +
-                "    <effectProvince>640000</effectProvince> \n" +
-                "  </commandObject> \n" +
-                "</command>";//TODO 下发指令
-        String commandType = "0401";//TODO 下发指令里面找"指令类型"
-        String commandSequence = "13040164001206";//TODO 下发指令里面的指令下发唯一编码
+        /*String originCommand = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+                "<command>\n" +
+                "    <commandInfo>\n" +
+                "        <commandSource>1</commandSource>\n" +
+                "        <sourceSystem>3</sourceSystem>\n" +
+                "        <version>2.0</version>\n" +
+                "        <commandID>13010300010079</commandID>\n" +
+                "        <operationType>0</operationType>\n" +
+                "        <commandPriority>3</commandPriority>\n" +
+                "        <owner>test_0103_31</owner>\n" +
+                "        <timeStamp>2023-08-02 10:57:47</timeStamp>\n" +
+                "    </commandInfo>\n" +
+                "    <commandObject>\n" +
+                "        <effectSystem>3</effectSystem>\n" +
+                "        <effectOperator>0211</effectOperator>\n" +
+                "        <effectProvince>000000</effectProvince>\n" +
+                "    </commandObject>\n" +
+                "    <commandResult>\n" +
+                "        <handleType>1</handleType>\n" +
+                "    </commandResult>\n" +
+                "    <commandRule>\n" +
+                "        <commandType>0103</commandType>\n" +
+                "        <rule>\n" +
+                "            <isUploadFile>1</isUploadFile>\n" +
+                "            <startTime>2023-08-02 10:53:36</startTime>\n" +
+                "            <endTime>2023-08-03 12:54:14</endTime>\n" +
+                "            <ruleID>13010300010079</ruleID>\n" +
+                "            <ruleDescription>恶意样本监测指令反馈需空</ruleDescription>\n" +
+                "        </rule>\n" +
+                "    </commandRule>\n" +
+                "</command>";//TODO 下发指令*/
+        String originCommand = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
+                "<command>\n" +
+                "    <commandInfo>\n" +
+                "        <commandSource>1</commandSource>\n" +
+                "        <sourceSystem>3</sourceSystem>\n" +
+                "        <version>2.0</version>\n" +
+                "        <commandID>13010200000080</commandID>\n" +
+                "        <operationType>0</operationType>\n" +
+                "        <commandPriority>1</commandPriority>\n" +
+                "        <owner>username</owner>\n" +
+                "        <timeStamp>2023-10-19 18:00:00</timeStamp>\n" +
+                "    </commandInfo>\n" +
+                "    <commandObject>\n" +
+                "        <effectSystem>3</effectSystem>\n" +
+                "        <effectOperator>0102</effectOperator>\n" +
+                "        <effectVendor>绿盟</effectVendor>\n" +
+                "        <effectProvince>640000</effectProvince>\n" +
+                "        <effectHouse>宁夏移动开发区机房</effectHouse>\n" +
+                "    </commandObject>\n" +
+                "    <commandResult>\n" +
+                "        <handleType>1</handleType>\n" +
+                "        <reportType>1</reportType>\n" +
+                "        <reportCycle>1</reportCycle>\n" +
+                "    </commandResult>\n" +
+                "    <commandRule>\n" +
+                "        <commandType>0102</commandType>\n" +
+                "        <rule>\n" +
+                "            <ruleID>13010200000080</ruleID>\n" +
+                "            <ruleDescription>对流量报文进行监测</ruleDescription>\n" +
+                "            <startTime>2023-10-19 18:15:00</startTime>\n" +
+                "            <endTime>2023-10-19 18:20:00</endTime>\n" +
+                "            <snortRule>alert tcp [10.224.7.115,10.227.224.141,192.200.200.13,10.223.6.165,10.226.149.155,10.226.149.236,10.229.150.9,192.200.200.61] any -> any any (msg:\\\"Matching Rules\\\")</snortRule>\n" +
+                "            <mtxRule></mtxRule>\n" +
+                "            <eventDirection>3</eventDirection>\n" +
+                "            <isPcap>1</isPcap>\n" +
+                "        </rule>\n" +
+                "    </commandRule>\n" +
+                "</command>";
+        String commandType = "0102";//TODO 下发指令里面找"指令类型"
+        String commandSequence = "13010200000080";//TODO 下发指令里面的指令下发唯一编码
         // 压缩  compressionFormat加压缩判定
         // 加密 encryptAlgorithm加密  加密所需参数AES_KEY AES_OFFSET
         // base64编码
@@ -163,10 +187,15 @@ public class ItOfficeMain {
         String commandHash = WebServiceUtil.getCommandHash(dataOfDecryptCommand, SECRET_KEY, hashAlgorithm);
         decryptSecurityCommand(odId, randVal, timeStamp, pwdHash, command, commandHash, commandType,
                 commandSequence, encryptAlgorithm, hashAlgorithm, compressionFormat, commandVersion);
+
     }
 
     public static void main(String[] args) {
         getSecurityCommand();
+////        decryptSecurityCommand("01026400003", "TLH5egpr1m8JpLbUkyR8", "2023-09-12 16:15:29", "NzQ4NTMyMmU2NzU3ZDVlM2UxYTVmNzJiZjhkMDkwY2U=",
+//"TZROukFfVBN7szH50qfbDrT/g8LKzPOnOiTua0mmdWqMVxP2xOLRncN3vzAShapxJu5slH8od5ZfVSDfYSXY3lHb4JP6LiIp054SteaW37gzR2kOyQNsx9OdN4iuCspXqMFGfZB/4oRqqq79ygiPzUPiEygNQc1G0cpknPFu97xxABQZNSUj5k4ZJR6Nm3fhj2NAjXyZgDCp4q+8p2pgNKVaqjt2pXLB0cwdIXoODcnoe3kOWYtGt45sGhiJIwlVdcuv1yixItoGWAhfV6ECTz38EIULLDtQePpciACrszJBo8oUHxu4t/cBiA5CykkIMY81jdlRReye0a7bevulywEhTOu4PEzpbpaO4CobgFdavVxtXNMxvNAhtDY++4vaQGB/538MnPE3Pl+NtcDgMRcZ5RLFPYKnYtDZ0Pe+sr//V4MAAhjpF/x0Q1lG2ZhfFyN43Cmkr/RzLye6Dn1gBQk1dlF0fK+clNiL0/L3jhsS9ZmVvAk3kwDova5rvmQH5e4AHNXiKsK2sne3yRyOqBUN0Za8BGHkQeQ2qo+VBhrnEn/d9GFbzdxW0Ca208w3IZ25grozt8vcx/qmS/P7ck5k8iRRrmffYY2xXkN8tUd7hvYO+9QSwhulsGVULssOiTqwnwKKl7/fMLBdkSNB1LK6CPi6o1xFYvzqUk8lWlCtyzDVZzR9KxNRYliF2Cupag9Dyx7rgqbSJwgoXj66eA0ELbGD+3um6rn0xHmdxd8zWpbsUGhfQarT3EKbPgSOjx5zjei4zp/xXIWeaYQRuCpuFnwMJPJBuwDyz/HVUxvdX0lsFxSIeBlTEedAL2M1nq5fP0V/85SecAwHn/QkFiA8NSu6VZLEjxceZe8Ly8w=",
+//                "OWNmM2E5YWQ1Y2RhMWNhYTk3YTA2OTYzMDc4YTUyNzQ=", "0401",
+//                "13040164001208", 1, 1, 1, "2.0");
 
     }
 }

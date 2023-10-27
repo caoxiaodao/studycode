@@ -1,0 +1,184 @@
+[10:19:29:391] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13040300000012</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-02 18:00:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>观安</effectVendor>
+        <effectProvince>110000</effectProvince>
+        <effectHouse>呼池二期机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0403</commandType>
+        <rule>
+            <ruleType>3</ruleType>
+            <ruleID>13040300000013</ruleID>
+            <ruleDescription>查询历史通联日志</ruleDescription>
+            <startTime>2023-08-02 18:00:00</startTime>
+            <endTime>2023-08-03 15:30:00</endTime>
+            <eventType></eventType>
+            <eventLevel>1</eventLevel>
+            <srcIp></srcIp>
+            <srcPort></srcPort>
+            <destIp></destIp>
+            <destPort></destPort>
+            <protocolType>1</protocolType>
+            <applicationProtocol>5</applicationProtocol>
+            <url></url>
+            <domain></domain>
+            <malwareHashType></malwareHashType>
+            <malwareHashValue></malwareHashValue>
+            <isUploadFile>0</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+[10:19:29:418] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+	<commandInfo>
+		<commandSource>1</commandSource>
+		<sourceSystem>3</sourceSystem>
+		<version>2.0</version>
+		<commandID>13050100000011</commandID>
+		<operationType>0</operationType>
+		<commandPriority>1</commandPriority>
+		<owner>username</owner>
+		<timeStamp>2023-08-03 09:00:00</timeStamp>
+	</commandInfo>
+	<commandObject>
+		<effectSystem>3</effectSystem>
+		<effectOperator>0102</effectOperator>
+		<effectVendor>观安</effectVendor>
+		<effectProvince>110000</effectProvince>
+		<effectHouse>呼池二期机房</effectHouse>
+	</commandObject>
+	<commandResult>
+		<handleType>1</handleType>
+		<reportType>2</reportType>
+		<reportCycle></reportCycle>
+	</commandResult>
+	<commandRule>
+		<commandType>0501</commandType>
+		<rule>
+			<ruleType>4</ruleType>
+			<ruleID>13050100000011</ruleID>
+			<ruleDescription>恶意IP溯源</ruleDescription>
+			<startTime>2023-08-01 11:00:00</startTime>
+			<endTime>2023-08-03 09:00:00</endTime>
+			<ip></ip>
+			<port></port>
+			<url></url>
+			<domain></domain>
+			<malwareHashType></malwareHashType>
+			<malwareHashValue>7b7c3d23a958b74a514cd23e56549676</malwareHashValue>
+			<isAttachment>0</isAttachment>
+			<attachment>溯源模板.docx</attachment>
+			<isPcap></isPcap>
+			<isUploadFile>1</isUploadFile>
+		</rule>
+	</commandRule>
+</command>
+
+[10:25:15:018] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+  <commandInfo>
+    <commandSource>1</commandSource>
+    <sourceSystem>3</sourceSystem>
+    <version>2.0</version>
+    <commandID>13050100000011</commandID>
+    <operationType>0</operationType>
+    <commandPriority>1</commandPriority>
+    <owner>username</owner>
+    <timeStamp>2023-08-03 09:00:00</timeStamp>
+  </commandInfo>
+  <commandObject>
+    <effectSystem>3</effectSystem>
+    <effectOperator>0102</effectOperator>
+    <effectVendor>观安</effectVendor>
+    <effectProvince>110000</effectProvince>
+    <effectHouse>呼池二期机房</effectHouse>
+  </commandObject>
+  <commandResult>
+    <handleType>1</handleType>
+    <reportType>2</reportType>
+    <reportCycle></reportCycle>
+  </commandResult>
+  <commandRule>
+    <commandType>0501</commandType>
+    <rule>
+      <ruleType>4</ruleType>
+      <ruleID>13050100000011</ruleID>
+      <ruleDescription>恶意IP溯源</ruleDescription>
+      <startTime>2023-08-01 11:00:00</startTime>
+      <endTime>2023-08-03 09:00:00</endTime>
+      <ip></ip>
+      <port></port>
+      <url></url>
+      <domain></domain>
+      <malwareHashType></malwareHashType>
+      <malwareHashValue>7b7c3d23a958b74a514cd23e56549676</malwareHashValue>
+      <isAttachment>0</isAttachment>
+      <attachment>溯源模板.docx</attachment>
+      <isPcap></isPcap>
+      <isUploadFile>1</isUploadFile>
+    </rule>
+  </commandRule>
+</command>
+[11:03:16:598] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+  <commandInfo>
+    <commandSource>1</commandSource>
+    <sourceSystem>3</sourceSystem>
+    <version>2.0</version>
+    <commandID>13050100000011</commandID>
+    <operationType>0</operationType>
+    <commandPriority>1</commandPriority>
+    <owner>username</owner>
+    <timeStamp>2023-08-03 09:00:00</timeStamp>
+  </commandInfo>
+  <commandObject>
+    <effectSystem>3</effectSystem>
+    <effectOperator>0102</effectOperator>
+    <effectVendor>观安</effectVendor>
+    <effectProvince>110000</effectProvince>
+    <effectHouse>呼池二期机房</effectHouse>
+  </commandObject>
+  <commandResult>
+    <handleType>1</handleType>
+    <reportType>2</reportType>
+    <reportCycle></reportCycle>
+  </commandResult>
+  <commandRule>
+    <commandType>0501</commandType>
+    <rule>
+      <ruleType>4</ruleType>
+      <ruleID>13050100000011</ruleID>
+      <ruleDescription>恶意IP溯源</ruleDescription>
+      <startTime>2023-08-01 11:00:00</startTime>
+      <endTime>2023-08-03 09:00:00</endTime>
+      <ip></ip>
+      <port></port>
+      <url></url>
+      <domain></domain>
+      <malwareHashType></malwareHashType>
+      <malwareHashValue>7b7c3d23a958b74a514cd23e56549676</malwareHashValue>
+      <isAttachment>0</isAttachment>
+      <attachment>溯源模板.docx</attachment>
+      <isPcap>0</isPcap>
+      <isUploadFile>1</isUploadFile>
+    </rule>
+  </commandRule>
+</command>

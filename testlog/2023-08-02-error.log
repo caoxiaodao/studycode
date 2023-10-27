@@ -1,0 +1,4 @@
+[15:38:41:137] [ERROR] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:91) - commandHash校验失败
+[15:38:58:810] [ERROR] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:91) - commandHash校验失败
+[15:40:13:163] [ERROR] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:91) - commandHash校验失败
+[18:50:59:977] [ERROR] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:91) - commandHash校验失败

@@ -38,6 +38,6 @@ public class VuePageBuilderProcess {
 
 
     public static void main(String[]args) {
-        processFile(new File("E:\\tmp2\\screen\\dist"));
+        processFile(new File("E:\\tmp3\\bjdx\\bjdx20230711\\dist20230712"));
     }
 }

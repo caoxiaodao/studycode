@@ -1,0 +1,81 @@
+[18:28:11:564] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060200000037</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-24 18:10:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0602</commandType>
+        <rule>
+            <ruleID>13060200000037</ruleID>
+            <ruleDescription>资产同步指令</ruleDescription>
+            <startTime>2023-08-24 18:15:00</startTime>
+            <endTime>2023-08-24 18:40:00</endTime>
+            <ruleType>1</ruleType>
+        </rule>
+    </commandRule>
+</command>
+
+[18:42:45:301] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13050100000016</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-24 18:10:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0501</commandType>
+        <rule>
+            <ruleType>4</ruleType>
+            <ruleID>13050100000015</ruleID>
+            <ruleDescription>恶意IP溯源</ruleDescription>
+            <startTime>2023-08-24 09:00:00</startTime>
+            <endTime>2023-08-24 12:00:00</endTime>
+            <ip>10.0.0.1-10.255.255.254</ip>
+            <port></port>
+            <url></url>
+            <domain></domain>
+            <malwareHashType></malwareHashType>
+            <malwareHashValue></malwareHashValue>
+            <isAttachment>1</isAttachment>
+            <attachment>test.docx</attachment>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+

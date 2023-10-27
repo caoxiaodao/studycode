@@ -8,7 +8,7 @@
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
             <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch） -->
-            <ThresholdFilter level="info" onMatch="ACCEPT"
+            <ThresholdFilter level="debug" onMatch="ACCEPT"
                              onMismatch="DENY"/>
             <PatternLayout
                     pattern="%d %highlight{%-5level}{ERROR=Bright RED, WARN=Bright Yellow, INFO=Bright Green,

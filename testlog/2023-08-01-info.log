@@ -1,0 +1,31 @@
+[17:59:08:977] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010300010079</commandID>
+        <operationType>0</operationType>
+        <commandPriority>3</commandPriority>
+        <owner>test_0103_31</owner>
+        <timeStamp>2023-07-31 10:57:47</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0211</effectOperator>
+        <effectProvince>000000</effectProvince>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+    </commandResult>
+    <commandRule>
+        <commandType>0103</commandType>
+        <rule>
+            <isUploadFile>1</isUploadFile>
+            <startTime>2023-07-31 10:53:36</startTime>
+            <endTime>2023-07-31 12:54:14</endTime>
+            <ruleID>13010300010079</ruleID>
+            <ruleDescription>恶意样本监测指令反馈需空</ruleDescription>
+        </rule>
+    </commandRule>
+</command>

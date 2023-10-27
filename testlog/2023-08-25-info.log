@@ -1,0 +1,431 @@
+[17:10:55:976] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060200000099</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 14:15:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0602</commandType>
+        <rule>
+            <ruleID>13060200000099</ruleID>
+            <ruleDescription>资产同步指令</ruleDescription>
+            <startTime>2023-08-25 14:15:00</startTime>
+            <endTime>2023-08-25 15:15:00</endTime>
+            <ruleType>1</ruleType>
+        </rule>
+    </commandRule>
+</command>
+
+[18:43:41:326] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060100000070</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:10:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0601</commandType>
+        <rule>
+            <ruleID>13060100000070</ruleID>
+            <ruleDescription>规则库同步恶意样本md5</ruleDescription>
+            <startTime>2023-08-25 18:10:00</startTime>
+            <endTime>2023-08-25 18:40:00</endTime>
+            <ruleType>1</ruleType>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+
+[18:45:54:939] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010200000071</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:15:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>1</reportType>
+        <reportCycle>1</reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0102</commandType>
+        <rule>
+            <ruleID>13010200000071</ruleID>
+            <ruleDescription>对流量报文进行监测</ruleDescription>
+            <startTime>2023-08-25 18:15:00</startTime>
+            <endTime>2023-08-25 18:45:00</endTime>
+            <snortRule>alert tcp [10.223.5.74,10.223.5.75,10.224.7.114,192.200.200.61,192.200.200.50,10.223.21.226,10.223.24.11,10.82.183.139,27.189.130.153] any -> any any (msg:\"Matching Rules\")</snortRule>
+            <mtxRule></mtxRule>
+            <eventDirection>3</eventDirection>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+
+[18:49:57:785] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13050100000072</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:18:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0501</commandType>
+        <rule>
+            <ruleType>4</ruleType>
+            <ruleID>13050100000072</ruleID>
+            <ruleDescription>恶意IP溯源</ruleDescription>
+            <startTime>2023-08-25 09:00:00</startTime>
+            <endTime>2023-08-25 13:00:00</endTime>
+            <ip>10.0.0.1-10.255.255.254</ip>
+            <port></port>
+            <url></url>
+            <domain></domain>
+            <malwareHashType></malwareHashType>
+            <malwareHashValue></malwareHashValue>
+            <isAttachment>1</isAttachment>
+            <attachment>test.docx</attachment>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+
+[18:58:10:523] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13050100000072</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:18:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0501</commandType>
+        <rule>
+            <ruleType>4</ruleType>
+            <ruleID>13050100000072</ruleID>
+            <ruleDescription>恶意IP溯源</ruleDescription>
+            <startTime>2023-08-25 09:00:00</startTime>
+            <endTime>2023-08-25 20:00:00</endTime>
+            <ip>10.0.0.1-10.255.255.254</ip>
+            <port></port>
+            <url></url>
+            <domain></domain>
+            <malwareHashType></malwareHashType>
+            <malwareHashValue></malwareHashValue>
+            <isAttachment>1</isAttachment>
+            <attachment>test.docx</attachment>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+
+[19:27:40:854] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010200000071</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:15:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>1</reportType>
+        <reportCycle>1</reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0102</commandType>
+        <rule>
+            <ruleID>13010200000071</ruleID>
+            <ruleDescription>对流量报文进行监测</ruleDescription>
+            <startTime>2023-08-25 19:00:00</startTime>
+            <endTime>2023-08-25 19:15:00</endTime>
+            <snortRule>alert tcp [10.223.5.74,10.223.5.75,10.224.7.114,192.200.200.61,192.200.200.50,10.223.21.226,10.223.24.11,10.82.183.139,27.189.130.153] any -> any any (msg:\"Matching Rules\")</snortRule>
+            <mtxRule></mtxRule>
+            <eventDirection>3</eventDirection>
+            <isPcap>1</isPcap>
+        </rule>
+    </commandRule>
+</command>
+
+[19:58:05:229] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060100000075</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 19:19:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0601</commandType>
+        <rule>
+            <ruleID>13060100000075</ruleID>
+            <ruleDescription>规则库同步恶意样本md5</ruleDescription>
+            <startTime>2023-08-25 18:10:00</startTime>
+            <endTime>2023-08-25 20:30:00</endTime>
+            <ruleType>1</ruleType>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+
+[20:28:04:807] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13010300000074</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 18:20:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>1</reportType>
+        <reportCycle>1</reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0103</commandType>
+        <rule>
+            <ruleID>13010300000074</ruleID>
+            <ruleDescription>对恶意样本进行监测</ruleDescription>
+            <startTime>2023-08-25 18:10:00</startTime>
+            <endTime>2023-08-25 20:30:00</endTime>
+            <srcIp></srcIp>
+            <destIp></destIp>
+            <url></url>
+            <domain></domain>
+            <malwareHashType>1</malwareHashType>
+            <malwareHashValue>af04826fd6d17f07c03dd7d8cfa2c6ba</malwareHashValue>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+
+[20:28:24:061] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060100000075</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 20:19:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0601</commandType>
+        <rule>
+            <ruleID>13060100000075</ruleID>
+            <ruleDescription>规则库同步恶意样本md5</ruleDescription>
+            <startTime>2023-08-23 10:10:00</startTime>
+            <endTime>2023-08-25 20:30:00</endTime>
+            <ruleType>1</ruleType>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+
+[20:28:41:329] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060100000075</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 20:19:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0601</commandType>
+        <rule>
+            <ruleID>13060100000075</ruleID>
+            <ruleDescription>规则库同步恶意样本md5</ruleDescription>
+            <startTime>2023-08-23 10:10:00</startTime>
+            <endTime>2023-08-25 20:30:00</endTime>
+            <ruleType>1</ruleType>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+
+[20:29:01:253] [INFO] - com.study.demo.service.workspace.nx.itoffice.ItOfficeMain.decryptSecurityCommand(ItOfficeMain.java:96) - 解析到指令内容，结束originCommand<?xml version="1.0" encoding="UTF-8"?>
+<command>
+    <commandInfo>
+        <commandSource>1</commandSource>
+        <sourceSystem>3</sourceSystem>
+        <version>2.0</version>
+        <commandID>13060100000075</commandID>
+        <operationType>0</operationType>
+        <commandPriority>1</commandPriority>
+        <owner>username</owner>
+        <timeStamp>2023-08-25 20:19:00</timeStamp>
+    </commandInfo>
+    <commandObject>
+        <effectSystem>3</effectSystem>
+        <effectOperator>0102</effectOperator>
+        <effectVendor>绿盟</effectVendor>
+        <effectProvince>640000</effectProvince>
+        <effectHouse>宁夏移动开发区机房</effectHouse>
+    </commandObject>
+    <commandResult>
+        <handleType>1</handleType>
+        <reportType>2</reportType>
+        <reportCycle></reportCycle>
+    </commandResult>
+    <commandRule>
+        <commandType>0601</commandType>
+        <rule>
+            <ruleID>13060100000075</ruleID>
+            <ruleDescription>规则库同步恶意样本md5</ruleDescription>
+            <startTime>2023-08-23 10:10:00</startTime>
+            <endTime>2023-08-25 20:30:00</endTime>
+            <ruleType>1</ruleType>
+            <isUploadFile>1</isUploadFile>
+        </rule>
+    </commandRule>
+</command>
+

@@ -14,20 +14,20 @@ import java.util.Properties;
 public class Main {
     public static void main(String[] args) {
         Properties props = new Properties();
-        props.put("mail.smtp.host", "smtp.qq.com");
+        props.put("mail.smtp.host", "smtp.163.com");
         props.put("mail.smtp.port", "465");
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.ssl.enable", "true");
 
         Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("1692430681@qq.com", "owzkhnqgxmazdbba");
+                return new PasswordAuthentication("lxh19981022@163.com", "SUDTNVUAOINNDTUE");
             }
         });
 
         try {
             MimeMessage message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("1692430681@qq.com"));
+            message.setFrom(new InternetAddress("lxh19981022@163.com"));
             message.addRecipient(Message.RecipientType.TO, new InternetAddress("18515878076@163.com"));
             message.setSubject("This is the subject of the email");
             message.setText("This is the content of the email");
